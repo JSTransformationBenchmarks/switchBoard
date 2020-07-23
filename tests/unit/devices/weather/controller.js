@@ -58,7 +58,7 @@ exports.weatherControllerTest = {
 
     var weatherController = require(__dirname + '/../../../../devices/weather/controller');
 
-    test.strictEqual(weatherController.formatTime(1546344000), '4:00', 'Return a string of the current time (hh:mm)');
+    test.strictEqual(weatherController.formatTime(1546344000), '7:00', 'Return a string of the current time (hh:mm)');
 
     test.done();
   },
